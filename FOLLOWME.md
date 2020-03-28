@@ -123,13 +123,13 @@ To make that data request, we make an HTTP GET call using AJAX.
         $(nameIdCol).append(nameH4);
         $(nameIdCol).append(idNumP);
         ```
-7. At the end you have to make sure to append the `rowCol` div to the container div.
+7. At the end you have to make sure to append the `rowDiv` div to the container div.
     ```JavaScript
     // place this before the forEach (outside)
     var studentContainer = $('#studentList');
 
     // place this inside the forEach, last line
-    studentContainer.append(rowCol);
+    studentContainer.append(rowDiv);
     ```
 8. Refresh your page and see the results!
 
