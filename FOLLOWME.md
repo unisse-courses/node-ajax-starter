@@ -77,7 +77,7 @@ To make that data request, we make an HTTP GET call using AJAX.
     ```
 3. We now ask ourselves, what do we do when the request is successful? Try calling `console.log(data)` in the success function (and then check the console of the browser!)
 4. You should have seen an array of objects, which is actually the `students` array sent by the server!
-5. We want to display the data in a list. However, we need to loop through the data first.
+5. We want to display the data in a list. However, we need to loop through the data first. **Make sure to insert this in the success callback function.**
     ```JavaScript
     data.forEach(function(item, index) {
        // place DOM creation here!
